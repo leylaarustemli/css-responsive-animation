@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    background-image: url(./sekil1.jpg);
+    background-position: center center;
+   background-size: cover;
+}
+
+.iconone{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.icontwo{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 30px ;
+    color: white;
+}
+
+.tittle{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 250px;
+   font-size: 50px;
+   border-color: #212529;
+   
+  
+}
+ 
+
+.tittle button{
+padding: 30px;
+background-color: #1d809f;
+border: 0;
+border-radius: 10px;
+color: white;
+width: 200px;
+margin-top: 40px;
+}
+
+.section-one h3{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-color: #212529;
+   font-size: 30px;
+}
+ .section-one p{
+    font-size: 20px;
+}
+
+.section-one{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 150px;
+}
+.section-one button{
+    padding: 25px;
+    background-color: black;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    width: 200px; 
+    margin-top: 40px;
+}
+
+.section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29 128 159);
+    color: white;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    gap: 60px;
+}
+.services{
+   padding-top: 90px;
+}
+.services h3{
+    color: rgb(236 184 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h2{
+    font-size: 50px;
+}
+
+.icons{
+    font-size: 20px;
+    padding-top: 40px;
+    margin-bottom: 90px;
+}
+.icons i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+
+.icons h4{
+    padding-top: 20px;
+}
+.section-three{
+    height: 100vh;
+    background-image: url(./sekil2.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 15rem 0;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    
+}
+
+.welcome h1{
+align-items: center;
+display: flex;
+align-items: center;
+font-size: 50px;
+color: black;
+}
+.welcome button{
+    background-color:  rgb(29 128 159);
+    padding: 20px;
+    width: 150px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.pageone{
+    width: 550px;
+    height: 350px;
+    background-image: url(./sekil3.jpg);
+}
+.pagetwo{
+    width: 550px;
+    height: 350px;
+   background-image: url(./sekil4.jpg);
+}
+.pagethree{
+    width: 550px;
+    height: 350px;
+    background-image: url(./sekil5.jpg);
+}
+.pagefour{
+    width: 550px;
+    height: 350px;
+    background-image: url(./sekil1.jpg);
+}
+
+.section-four{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top:200px ;
+
+}
+
+.paragraphone{
+    position: relative;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 0 50px 50px;
+    display: flex;
+    height: 100%;
+    transition: 0.3s;
+    color: white;
+}
+.paragraphtwo{
+    position: relative;
+    height: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 0 50px 50px;
+    display: flex;
+    transition: 0.3s;
+    color: white;
+}
+.paragraphthree{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 0 50px 50px;
+    display: flex;
+    transition: 0.3s;
+    color: white;
+}
+.paragraphfour{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 0 50px 50px;
+    display: flex;
+    transition: 0.3s;
+    color: white;
+}
+
+.card:hover{
+    transform: scale(0.9);
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover .paragraph{
+    background-color: #196d878f;
+}
+
+.section-five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 128, 159);
+    margin-top: 120px;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.section-five button{
+    color: white;
+    border: 0;
+    padding: 20px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+.buttonone{
+    background-color:grey ;
+    color: black;
+}
+.buttontwo{
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.section-six .map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 400px ;
+   width: 100%;
+}
+
+.threeicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 80px;
+    border: 1px blue;
+   border-radius: 50%;
+   gap: 50px;
+
+}
+ footer span{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+
+ /* ? Responsive Area Start */
+ @media only screen and (max-width: 993px) {
+  }
